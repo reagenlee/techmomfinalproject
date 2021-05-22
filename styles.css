@@ -1,0 +1,33 @@
+.painting{
+width: 300px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+h2{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading{
+text-align: center;
+}
+
+
+#home{
+
+    min-height: 400px; 
+    background: lightblue url("img_tree.gif") no-repeat fixed center;
+
+}
+
+.imagescontainer{
+    display:flex;
+    align-items: flex-end;
+}
