@@ -64,7 +64,6 @@ color: white;
     align-items: flex-end;
     justify-content: center;
     flex-flow: row wrap;
-    height: 400px;
 }
 
 .mural {
