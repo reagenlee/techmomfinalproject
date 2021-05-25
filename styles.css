@@ -6,28 +6,82 @@ nav{
     display: flex;
     justify-content: space-around;
 }
- 
-h2{
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+body{
+    background-color: black;
+}
+h1 {
+    color: white;
 }
 
-h3{
+figcaption{
+    color: white;
+}
+
+h2{
+    text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: white;
+ font-size: 50px;
+}
+
+h3, h4{
+    text-align: center;
    font-family: Georgia, 'Times New Roman', Times, serif;
+   color: white;
+   
+}
+p{
+    text-align: center;
 }
 
 .heading{
 text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
 }
 
+#artist{
+    
+    background-image: url("Art/zentangle.jpg"); 
+    background-size: cover;
+    padding: 25px;
+}
+#artist .content{
+    backdrop-filter: opacity(.9) blur(15px);
+}
 
-#home{
+#gallery{
 
     min-height: 400px; 
-    background: lightblue url("img_tree.gif") no-repeat fixed center;
-
+    
 }
+
+
 
 .imagescontainer{
     display:flex;
     align-items: flex-end;
+    justify-content: center;
+    flex-flow: row wrap;
+    height: 400px;
 }
+
+.mural {
+    height: 400px;
+}
+
+.head {
+    text-align: center;
+    font-family: Raleway, serif;
+    font-size: 150px;
+}
+
+.moi {
+    height: 400px;
+    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
